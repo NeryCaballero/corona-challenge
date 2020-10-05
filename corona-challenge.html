@@ -4,14 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corona Challenge</title>
-    <!-- CSS Stylesheet  <link href="#" type="text/css" rel="stylesheet"> -->
+    <!-- CSS Stylesheet --> <link href="corona-challenge.css" type="text/css" rel="stylesheet"> 
     <!-- Font Awesome --> <script src="https://kit.fontawesome.com/fdac4fc693.js" crossorigin="anonymous"></script>
     <!-- BootstrapCDN css --> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <!-- BootstrapCDN js --> <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
-    <!-- Google Fonts --> 
+    <!-- Google Fonts --> <link href="https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 </head>
 <body>
-    <!-- Header:"bg-image" "Name CODIGO" "nav" "Main message" "getstarted button" "2nd image" -->
+    <!-- HEADER -->
+    <div id="header-container">
+        <!--  Nav Bar -->
+        <div class="container">
+            <nav id="navbar-row" class="row pt-5 ">
+                <!-- Col 1 : Logo -->
+                <div class="col-md-3">
+                    <a href="corona-challenge.html"><img src="images/coronavirus-logo.png" alt="Coronavirus logo"></a>
+                </div>
+
+                <!-- Col 2 : Nav Items -->
+                <div class="col-md-9 pl-4">
+                    <ul class="navbar">
+                        <li class="nav-item"><a id="home" href="#">HOME</a></li>
+                        <li class="nav-item"><a href="#">COVID-19</a></li>
+                        <li class="nav-item"><a href="#">PREVENTION</a></li>
+                        <li class="nav-item"><a href="#">BLOG</a></li>
+                        <li class="nav-item"><a href="#">FAQ</a></li>
+                        <li class="nav-item"><a href="#">CONTACT US</a></li>
+                        <li class="nav-item">
+                            <div id="call-doctor" class="px-3 py-2 d-inline-block text-center">
+                                <a href="#" class="text-light text-decoration-none">CALL A DOCTOR</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Message, Call to Action Button -->
+        <div id="header-content" class="container text-light p-5">
+            <h1 class="font-weight-bold display-3">COVID-19</h1>
+            <h2 class="h4">BASIC PROTECTIVE MEASURES</h2>
+            <h1 class="font-weight-bold display-4">SOCIAL DISTANCING</h1>
+            <h2 class="h6">For Emergency Contact (012) 345 6789</h2>
+            <div id="get-started" class="mt-4 px-4 py-3 d-inline-block">
+                <a href="#" class="text-light text-decoration-none">GET STARTED NOW!</a>
+            </div>
+        </div>
+
+        <!-- Corner Img -->
+        <img id="corner" src="images/people.png" alt="Illustration of people wearing masks">
+    </div>
+
     <!-- Total cases  -->
     <!-- What is corona virus  -->
     <!-- Symptoms of coronavirus -->
