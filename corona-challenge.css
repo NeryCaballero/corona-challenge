@@ -1,0 +1,62 @@
+body {
+  font-size: 14px !important;
+  line-height: 1.5;
+}
+body #header-container {
+  background-image: url(images/header-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #313C4E;
+  font-family: "Poppins", sans-serif;
+  height: 940px;
+  position: relative;
+}
+body #header-container #navbar-row {
+  font-size: 1em;
+  align-items: center;
+}
+body #header-container #navbar-row ul {
+  list-style: none;
+  margin: 0;
+}
+body #header-container #navbar-row a {
+  color: #fff;
+  text-decoration: none;
+}
+body #header-container #navbar-row a#home {
+  color: #F5355D;
+}
+body #header-container #navbar-row a:hover {
+  color: #F5355D;
+}
+body #header-container #navbar-row #call-doctor {
+  background-color: #F5355D;
+  border-radius: 30px;
+}
+body #header-container #navbar-row #call-doctor:hover {
+  box-shadow: 2px 2px 15px 5px #f5375f;
+}
+body #header-container #header-content {
+  position: absolute;
+  left: 2%;
+  top: 29%;
+}
+body #header-container #header-content h2 {
+  letter-spacing: 0.2em;
+}
+body #header-container #header-content #get-started {
+  background-color: #F5355D;
+  border-radius: 30px;
+}
+body #header-container #header-content #get-started:hover {
+  box-shadow: 2px 2px 15px 5px #f5375f;
+}
+body #header-container img#corner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=corona-challenge.css.map */

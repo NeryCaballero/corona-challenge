@@ -1,0 +1,82 @@
+$accent-color: #F5355D;
+
+body {
+
+    font-size: 14px!important;
+    line-height: 1.5;
+
+    #header-container {
+        background-image: url(images/header-banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #313C4E;
+        font-family: 'Poppins', sans-serif;
+        height: 940px;
+        position: relative;
+
+        #navbar-row {
+            font-size: 1em;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                margin: 0;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            a#home {
+                color: $accent-color;
+            }
+
+            a:hover {
+                color: $accent-color;
+            }
+
+            #call-doctor {
+                background-color: $accent-color;
+                border-radius: 30px;
+            }
+
+            #call-doctor:hover {
+                box-shadow: 2px 2px 15px 5px lighten($color: $accent-color , $amount: 0.5);
+            }
+        }
+
+        #header-content {
+            position: absolute;
+            left: 2%;
+            top: 29%;
+    
+
+            h2 {
+                letter-spacing: 0.2em;
+            }
+    
+            #get-started {
+                background-color: $accent-color;
+                border-radius: 30px;
+            }
+
+            #get-started:hover {
+                box-shadow: 2px 2px 15px 5px lighten($color: $accent-color , $amount: 0.5);
+            }
+
+        }
+
+        img#corner {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 50%;
+            margin-top: 100px;
+        }
+
+        
+    }
+
+}
+
