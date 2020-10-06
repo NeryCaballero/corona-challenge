@@ -78,5 +78,99 @@ body {
         
     }
 
+    #stat-main-container {
+        background-image: url(images/statistics-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(143, 143, 143, 0.05);
+        box-shadow: 0 2px 27px rgba(143, 143, 143, 0.4);
+
+        #stat-container {
+            padding-left: 6%;
+            padding-right: 6%;
+            
+            // Sprites
+            .sprite {
+                display:inline-block;
+                background-image: url(images/sprite-home.png);
+                height: 80px;
+                width: 80px;
+                transition: background-position 0.3s ease-in;
+            }
+
+            #sprite1 {
+                background-position: 0 0;
+            }
+    
+            #sprite1:hover {
+                background-position: 0 80px;
+                transition: background-position 0.3s ease-out;
+            }
+
+            #sprite2 {
+                background-position: -70px 0;
+            }
+    
+            #sprite2:hover {
+                background-position: -70px 80px;
+                transition: background-position 0.3s ease-out;
+            }
+
+            #sprite3 {
+                background-position: 150px 0;
+            }
+    
+            #sprite3:hover {
+                background-position: 150px 80px;
+                transition: background-position 0.3s ease-out;
+            }
+
+            #sprite4 {
+                background-position: 80px 0;
+            }
+    
+            #sprite4:hover {
+                background-position: 80px 80px;
+                transition: background-position 0.3s ease-out;
+            }
+
+            // FigCaptions
+            .stat{
+                font-size: 140%;
+                line-height: 50%;
+            }
+    
+            .stat-1 {
+                color: #FB4661;
+            }
+
+            .stat-2 {
+                color: #A10D48;
+            }
+
+            .stat-3 {
+                color: #7124AF;
+            }
+
+            .stat-4 {
+                color: #D8661D;
+            }
+
+            
+
+            
+
+        }
+    }
+
+    
+
+        
+        
+        
+    
 }
+
+
+
 
