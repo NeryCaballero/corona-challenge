@@ -1,4 +1,5 @@
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 14px !important;
   line-height: 1.5;
 }
@@ -79,26 +80,26 @@ body #stat-main-container #stat-container .sprite {
 body #stat-main-container #stat-container #sprite1 {
   background-position: 0 0;
 }
+body #stat-main-container #stat-container #sprite2 {
+  background-position: -70px 0;
+}
+body #stat-main-container #stat-container #sprite3 {
+  background-position: 150px 0;
+}
+body #stat-main-container #stat-container #sprite4 {
+  background-position: 80px 0;
+}
 body #stat-main-container #stat-container #sprite1:hover {
   background-position: 0 80px;
   transition: background-position 0.3s ease-out;
-}
-body #stat-main-container #stat-container #sprite2 {
-  background-position: -70px 0;
 }
 body #stat-main-container #stat-container #sprite2:hover {
   background-position: -70px 80px;
   transition: background-position 0.3s ease-out;
 }
-body #stat-main-container #stat-container #sprite3 {
-  background-position: 150px 0;
-}
 body #stat-main-container #stat-container #sprite3:hover {
   background-position: 150px 80px;
   transition: background-position 0.3s ease-out;
-}
-body #stat-main-container #stat-container #sprite4 {
-  background-position: 80px 0;
 }
 body #stat-main-container #stat-container #sprite4:hover {
   background-position: 80px 80px;
@@ -119,6 +120,27 @@ body #stat-main-container #stat-container .stat-3 {
 }
 body #stat-main-container #stat-container .stat-4 {
   color: #D8661D;
+}
+body #what-is-corona-container {
+  padding: 6%;
+}
+body #what-is-corona-container img {
+  max-width: 100%;
+}
+body #what-is-corona-container #what-is-corona-content {
+  color: #353C4C;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.9;
+}
+body #what-is-corona-container #what-is-corona-content h1 {
+  font-size: 250%;
+}
+body #what-is-corona-container #what-is-corona-content p {
+  font-size: 95%;
+}
+body #what-is-corona-container #what-is-corona-content h2 {
+  font-size: 150%;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=corona-challenge.css.map */
