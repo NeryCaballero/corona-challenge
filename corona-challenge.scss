@@ -1,11 +1,16 @@
 $accent-color: #F5355D;
+$text-color: #353C4C;
+$font-family: 'Poppins', sans-serif;
+// $accent-gradient: linear-gradient(-65deg, rgb(227, 20, 91), rgb(247, 58, 91));
+
+// -webkit-linear-gradient(-65deg, rgb(227, 20, 91), rgb(247, 58, 91)), 
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px!important;
     line-height: 1.5;
 
-    #header-container {
+    #header-main-container {
         background-image: url(images/header-banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -128,7 +133,7 @@ body {
                 font-size: 140%;
                 line-height: 50%;
             }
-            
+
             .stat-1 {color: #FB4661;}
             .stat-2 {color: #A10D48;}
             .stat-3 {color: #7124AF;}
@@ -146,7 +151,7 @@ body {
         }
 
         #what-is-corona-content {
-            color: #353C4C;
+            color: $text-color;
             font-family: 'Poppins', sans-serif;
             line-height: 1.9;
             h1 {font-size: 250%;}
@@ -159,12 +164,69 @@ body {
 
     }
 
+    #symptoms-main-container {
+        font-family: $font-family;
+        background-image: url(images/symptoms-bg.png);
+        color: $text-color;
+        line-height: 1.7;
+        padding: 6%;
+        h1 {font-size: 250%;}
+        p{font-size: 90%}
+
+        #symptoms-content {
+
+            
+            figure h2 {
+                font-size: 150%;
+                font-weight: 600;
+            }
+
+            span {
+                background-image: url(images/sprite-home-v3.png);
+                display:inline-block;
+                height: 120px;
+                width: 120px;
+                transition: background-position 0.3s ease-in;
+                border: 2px dotted black;
+                border-radius: 50%;
+            }
+
+            #symp1 {background-position: 10px -150px;}
+            #symp2 {background-position: -110px -155px;}
+            #symp3 {background-position: 143px -150px;}
+            #symp4 {background-position: 3px -250px;}
+            #symp5 {background-position: -115px -250px;}
+            #symp6 {background-position: 144px -250px;}
+
+            figure:hover {
+                span {//Fix GRADIENT !!!
+                    // background-image: url(images/sprite-home-v3.png), linear-gradient(-65deg, rgb(201, 144, 164), rgb(247, 58, 91));
+                    background-color: $accent-color;
+                    
+                    border: 2px dotted #fff;
+                    color: #fff;
+                    transition: background-position 0.3s ease-out;
+                }
+
+                h2 {color:$accent-color}
+
+                #symp1 {background-position: 10px -340px;}
+                #symp2 {background-position: -110px -345px;}
+                #symp3 {background-position: 143px -340px;}
+                #symp4 {background-position: 3px -440px;}
+                #symp5 {background-position: -115px -440px;}
+                #symp6 {background-position: 144px -440px;}
+        }
+    }
+
     
 
         
         
         
     
+    }
+
 }
 
 

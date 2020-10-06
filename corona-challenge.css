@@ -3,7 +3,7 @@ body {
   font-size: 14px !important;
   line-height: 1.5;
 }
-body #header-container {
+body #header-main-container {
   background-image: url(images/header-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,47 +12,47 @@ body #header-container {
   height: 940px;
   position: relative;
 }
-body #header-container #navbar-row {
+body #header-main-container #navbar-row {
   font-size: 1em;
   align-items: center;
 }
-body #header-container #navbar-row ul {
+body #header-main-container #navbar-row ul {
   list-style: none;
   margin: 0;
 }
-body #header-container #navbar-row a {
+body #header-main-container #navbar-row a {
   color: #fff;
   text-decoration: none;
 }
-body #header-container #navbar-row a#home {
+body #header-main-container #navbar-row a#home {
   color: #F5355D;
 }
-body #header-container #navbar-row a:hover {
+body #header-main-container #navbar-row a:hover {
   color: #F5355D;
 }
-body #header-container #navbar-row #call-doctor {
+body #header-main-container #navbar-row #call-doctor {
   background-color: #F5355D;
   border-radius: 30px;
 }
-body #header-container #navbar-row #call-doctor:hover {
+body #header-main-container #navbar-row #call-doctor:hover {
   box-shadow: 2px 2px 15px 5px #f5375f;
 }
-body #header-container #header-content {
+body #header-main-container #header-content {
   position: absolute;
   left: 2%;
   top: 29%;
 }
-body #header-container #header-content h2 {
+body #header-main-container #header-content h2 {
   letter-spacing: 0.2em;
 }
-body #header-container #header-content #get-started {
+body #header-main-container #header-content #get-started {
   background-color: #F5355D;
   border-radius: 30px;
 }
-body #header-container #header-content #get-started:hover {
+body #header-main-container #header-content #get-started:hover {
   box-shadow: 2px 2px 15px 5px #f5375f;
 }
-body #header-container img#corner {
+body #header-main-container img#corner {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -141,6 +141,77 @@ body #what-is-corona-container #what-is-corona-content p {
 body #what-is-corona-container #what-is-corona-content h2 {
   font-size: 150%;
   font-weight: 600;
+}
+body #symptoms-main-container {
+  font-family: "Poppins", sans-serif;
+  background-image: url(images/symptoms-bg.png);
+  color: #353C4C;
+  line-height: 1.7;
+  padding: 6%;
+}
+body #symptoms-main-container h1 {
+  font-size: 250%;
+}
+body #symptoms-main-container p {
+  font-size: 90%;
+}
+body #symptoms-main-container #symptoms-content figure h2 {
+  font-size: 150%;
+  font-weight: 600;
+}
+body #symptoms-main-container #symptoms-content span {
+  background-image: url(images/sprite-home-v3.png);
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  transition: background-position 0.3s ease-in;
+  border: 2px dotted black;
+  border-radius: 50%;
+}
+body #symptoms-main-container #symptoms-content #symp1 {
+  background-position: 10px -150px;
+}
+body #symptoms-main-container #symptoms-content #symp2 {
+  background-position: -110px -155px;
+}
+body #symptoms-main-container #symptoms-content #symp3 {
+  background-position: 143px -150px;
+}
+body #symptoms-main-container #symptoms-content #symp4 {
+  background-position: 3px -250px;
+}
+body #symptoms-main-container #symptoms-content #symp5 {
+  background-position: -115px -250px;
+}
+body #symptoms-main-container #symptoms-content #symp6 {
+  background-position: 144px -250px;
+}
+body #symptoms-main-container #symptoms-content figure:hover span {
+  background-color: #F5355D;
+  border: 2px dotted #fff;
+  color: #fff;
+  transition: background-position 0.3s ease-out;
+}
+body #symptoms-main-container #symptoms-content figure:hover h2 {
+  color: #F5355D;
+}
+body #symptoms-main-container #symptoms-content figure:hover #symp1 {
+  background-position: 10px -340px;
+}
+body #symptoms-main-container #symptoms-content figure:hover #symp2 {
+  background-position: -110px -345px;
+}
+body #symptoms-main-container #symptoms-content figure:hover #symp3 {
+  background-position: 143px -340px;
+}
+body #symptoms-main-container #symptoms-content figure:hover #symp4 {
+  background-position: 3px -440px;
+}
+body #symptoms-main-container #symptoms-content figure:hover #symp5 {
+  background-position: -115px -440px;
+}
+body #symptoms-main-container #symptoms-content figure:hover #symp6 {
+  background-position: 144px -440px;
 }
 
 /*# sourceMappingURL=corona-challenge.css.map */
