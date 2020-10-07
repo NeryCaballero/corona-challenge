@@ -143,7 +143,7 @@ body {
         }
     }
 
-    #what-is-corona-container {
+    #what-is-corona-main-container {
         
         padding: 6%;
 
@@ -372,6 +372,107 @@ body {
             }
         }
         // <i class="fas fa-chevron-down"></i>
+    }
+
+    #specialists-main-container {
+        color: $text-color;
+        justify-content: space-between;
+        font-family: $font-family;
+        padding: 10px 60px 30px 60px;
+        h1 {font-size: 250%;}
+        p{line-height: 1.7;
+        margin: 0;}
+        h2 {
+            font-size: 130%;
+            font-weight: 600;
+        }
+        figure {
+            transition: color 0.2s ease-in;
+            width: fit-content;
+        }
+
+        figure#team1:hover,
+        figure#team2:hover,
+        figure#team3:hover,
+        figure#team4:hover {
+
+            #team-name1,
+            #team-name2,
+            #team-name3,
+            #team-name4 {
+                background: $accent-gradient;
+                color: #FFF!important;
+                transition: color 0.2s ease-out;
+            }
+        }
+
+        
+
+        
+
+        figure#team1 {
+            position: relative;
+          }
+          
+        #team-img1 {
+            // opacity: 1;
+            // display: block;
+            // width: 100%;
+            // height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+          }
+          
+          .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: fit-content;
+
+            a {
+                display: inline-flex;
+                height: 40px;
+                width: 40px;
+                margin: 2px 2px;
+                text-decoration: none;
+
+                i {
+                    font-size: 120%;
+                    margin:auto}
+            }
+
+            a:hover {
+                .middle {background-color: #fff;}
+                
+            }
+          }
+          
+          #team1:hover #team-img1 {
+            background-color: #313C4E;
+            opacity: 0.3;
+          }
+          
+          #team1:hover .middle {
+            opacity: 1;
+          }
+          
+          .text {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+          }  
+            
+
+        
+
+        
+        
     }
 
 }

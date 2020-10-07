@@ -120,24 +120,24 @@ body #stat-main-container #stat-container .stat-3 {
 body #stat-main-container #stat-container .stat-4 {
   color: #D8661D;
 }
-body #what-is-corona-container {
+body #what-is-corona-main-container {
   padding: 6%;
 }
-body #what-is-corona-container img {
+body #what-is-corona-main-container img {
   max-width: 100%;
 }
-body #what-is-corona-container #what-is-corona-content {
+body #what-is-corona-main-container #what-is-corona-content {
   color: #353C4C;
   font-family: "Poppins", sans-serif;
   line-height: 1.9;
 }
-body #what-is-corona-container #what-is-corona-content h1 {
+body #what-is-corona-main-container #what-is-corona-content h1 {
   font-size: 250%;
 }
-body #what-is-corona-container #what-is-corona-content p {
+body #what-is-corona-main-container #what-is-corona-content p {
   font-size: 95%;
 }
-body #what-is-corona-container #what-is-corona-content h2 {
+body #what-is-corona-main-container #what-is-corona-content h2 {
   font-size: 150%;
   font-weight: 600;
 }
@@ -372,6 +372,92 @@ body #FAQ-main-container a:hover .chevron {
   background: linear-gradient(0deg, #e3145b, #f73a5b);
   color: #fff;
   box-shadow: 2px 2px 10px rgba(143, 143, 143, 0.4);
+}
+body #specialists-main-container {
+  color: #353C4C;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 60px 30px 60px;
+}
+body #specialists-main-container h1 {
+  font-size: 250%;
+}
+body #specialists-main-container p {
+  line-height: 1.7;
+  margin: 0;
+}
+body #specialists-main-container h2 {
+  font-size: 130%;
+  font-weight: 600;
+}
+body #specialists-main-container figure {
+  transition: color 0.2s ease-in;
+  width: fit-content;
+}
+body #specialists-main-container figure#team1:hover #team-name1,
+body #specialists-main-container figure#team1:hover #team-name2,
+body #specialists-main-container figure#team1:hover #team-name3,
+body #specialists-main-container figure#team1:hover #team-name4,
+body #specialists-main-container figure#team2:hover #team-name1,
+body #specialists-main-container figure#team2:hover #team-name2,
+body #specialists-main-container figure#team2:hover #team-name3,
+body #specialists-main-container figure#team2:hover #team-name4,
+body #specialists-main-container figure#team3:hover #team-name1,
+body #specialists-main-container figure#team3:hover #team-name2,
+body #specialists-main-container figure#team3:hover #team-name3,
+body #specialists-main-container figure#team3:hover #team-name4,
+body #specialists-main-container figure#team4:hover #team-name1,
+body #specialists-main-container figure#team4:hover #team-name2,
+body #specialists-main-container figure#team4:hover #team-name3,
+body #specialists-main-container figure#team4:hover #team-name4 {
+  background: linear-gradient(0deg, #e3145b, #f73a5b);
+  color: #FFF !important;
+  transition: color 0.2s ease-out;
+}
+body #specialists-main-container figure#team1 {
+  position: relative;
+}
+body #specialists-main-container #team-img1 {
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+body #specialists-main-container .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+body #specialists-main-container .middle a {
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  margin: 2px 2px;
+  text-decoration: none;
+}
+body #specialists-main-container .middle a i {
+  font-size: 120%;
+  margin: auto;
+}
+body #specialists-main-container .middle a:hover .middle {
+  background-color: #fff;
+}
+body #specialists-main-container #team1:hover #team-img1 {
+  background-color: #313C4E;
+  opacity: 0.3;
+}
+body #specialists-main-container #team1:hover .middle {
+  opacity: 1;
+}
+body #specialists-main-container .text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 /*# sourceMappingURL=corona-challenge.css.map */
