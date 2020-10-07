@@ -327,5 +327,51 @@ body #subscribe-main-container #subscribe-button {
 body #subscribe-main-container #subscribe-button:hover {
   background: linear-gradient(0deg, #e3145b, #f73a5b);
 }
+body #FAQ-main-container {
+  color: #353C4C;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 100px 50px 30px 50px;
+}
+body #FAQ-main-container h1 {
+  font-size: 250%;
+}
+body #FAQ-main-container p {
+  line-height: 1.7;
+}
+body #FAQ-main-container h2 {
+  font-size: 150%;
+  font-weight: 600;
+}
+body #FAQ-main-container a {
+  color: #353C4C;
+  font-weight: 600;
+}
+body #FAQ-main-container .faq {
+  margin-bottom: 20px;
+}
+body #FAQ-main-container .faq p {
+  padding-left: 55px;
+}
+body #FAQ-main-container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #FAQ-main-container .chevron {
+  display: inline-flex;
+  background-color: #EEE;
+  border-radius: 50%;
+  font-size: 60%;
+  font-weight: bold;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+body #FAQ-main-container a:hover .chevron {
+  background: linear-gradient(0deg, #e3145b, #f73a5b);
+  color: #fff;
+  box-shadow: 2px 2px 10px rgba(143, 143, 143, 0.4);
+}
 
 /*# sourceMappingURL=corona-challenge.css.map */
