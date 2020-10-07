@@ -1,5 +1,4 @@
 body {
-  font-family: "Poppins", sans-serif;
   font-size: 14px !important;
   line-height: 1.5;
 }
@@ -295,6 +294,38 @@ body #protect-main-container #protect figure:hover #protection-5 {
 }
 body #protect-main-container #protect figure:hover #protection-6 {
   background-position: -308px -80px;
+}
+body #subscribe-main-container {
+  background-image: url(images/subscribe-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 90px 90px;
+}
+body #subscribe-main-container #subscribe-group {
+  display: flex;
+  background-color: #161E32;
+  border: 1px solid #253856;
+  border-radius: 50px;
+  padding-right: 0;
+}
+body #subscribe-main-container #subscribe-input {
+  background-color: #161E32;
+  border: 0 solid #253856;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  padding-left: 20px;
+}
+body #subscribe-main-container #subscribe-button {
+  background-color: #F5355D;
+  border-radius: 50px;
+  padding: 15px;
+  width: 200px;
+}
+body #subscribe-main-container #subscribe-button:hover {
+  background: linear-gradient(0deg, #e3145b, #f73a5b);
 }
 
 /*# sourceMappingURL=corona-challenge.css.map */
