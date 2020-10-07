@@ -1,12 +1,13 @@
+
 $accent-color: #F5355D;
 $text-color: #353C4C;
 $font-family: 'Poppins', sans-serif;
-// $accent-gradient: linear-gradient(-65deg, rgb(227, 20, 91), rgb(247, 58, 91));
+$accent-gradient: linear-gradient(0deg, rgb(227, 20, 91), rgb(247, 58, 91));
 
 // -webkit-linear-gradient(-65deg, rgb(227, 20, 91), rgb(247, 58, 91)), 
 
 body {
-    font-family: 'Poppins', sans-serif;
+    // font-family: 'Poppins', sans-serif;
     font-size: 14px!important;
     line-height: 1.5;
 
@@ -281,6 +282,44 @@ body {
                 #protection-5 {background-position: -246px -77px;}
                 #protection-6 {background-position: -308px -80px;}
             }
+        }
+    }
+
+    #subscribe-main-container {
+        background-image: url(images/subscribe-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: fill;
+        justify-content: space-between;
+        font-family: $font-family;
+        padding: 90px 90px;
+
+        #subscribe-group {
+            display:flex;
+            background-color: #161E32;
+            border: 1px solid #253856;
+            border-radius: 50px;
+            padding-right: 0;
+        }
+
+        #subscribe-input {
+            background-color: #161E32;
+            border: 0 solid #253856;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 700px;
+            padding-left: 20px;
+            
+        }
+
+        #subscribe-button {
+            background-color: $accent-color;
+            border-radius: 50px;
+            padding: 15px;
+            width: 200px;
+        }
+
+        #subscribe-button:hover {
+            background: $accent-gradient
         }
     }
 
