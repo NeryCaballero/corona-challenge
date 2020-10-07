@@ -213,5 +213,88 @@ body #symptoms-main-container #symptoms-content figure:hover #symp5 {
 body #symptoms-main-container #symptoms-content figure:hover #symp6 {
   background-position: 144px -440px;
 }
+body #protect-main-container {
+  font-family: "Poppins", sans-serif;
+  line-height: 2.2;
+  padding: 6%;
+}
+body #protect-main-container h1 {
+  font-size: 250%;
+}
+body #protect-main-container p {
+  font-size: 90%;
+}
+body #protect-main-container h2 {
+  font-size: 150%;
+  font-weight: 600;
+}
+body #protect-main-container #protect-heading {
+  max-width: 450px;
+}
+body #protect-main-container #protect {
+  background-image: url(images/protect-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+  justify-content: space-between;
+}
+body #protect-main-container #protect figure {
+  min-height: 130px;
+}
+body #protect-main-container #protect span {
+  background-image: url(images/sprite-home-v3.png);
+  background-color: #fff;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  transition: background-position 0.3s ease-in;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+body #protect-main-container #protect #protection-1 {
+  background-position: 5px 4px;
+}
+body #protect-main-container #protect #protection-2 {
+  background-position: -57px 4px;
+}
+body #protect-main-container #protect #protection-3 {
+  background-position: -124px 4px;
+}
+body #protect-main-container #protect #protection-4 {
+  background-position: -184px 4px;
+}
+body #protect-main-container #protect #protection-5 {
+  background-position: -246px 4px;
+}
+body #protect-main-container #protect #protection-6 {
+  background-position: -307px 3px;
+}
+body #protect-main-container #protect figure:hover span {
+  background-color: #F5355D;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: background-position 0.3s ease-out;
+}
+body #protect-main-container #protect figure:hover h2 {
+  color: #F5355D;
+}
+body #protect-main-container #protect figure:hover #protection-1 {
+  background-position: 5px -77px;
+}
+body #protect-main-container #protect figure:hover #protection-2 {
+  background-position: -57px -77px;
+}
+body #protect-main-container #protect figure:hover #protection-3 {
+  background-position: -124px -77px;
+}
+body #protect-main-container #protect figure:hover #protection-4 {
+  background-position: -184px -77px;
+}
+body #protect-main-container #protect figure:hover #protection-5 {
+  background-position: -246px -77px;
+}
+body #protect-main-container #protect figure:hover #protection-6 {
+  background-position: -308px -80px;
+}
 
 /*# sourceMappingURL=corona-challenge.css.map */
